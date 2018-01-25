@@ -137,6 +137,7 @@ typedef struct user_fpregs elf_fpregset_t;
 #endif
 
 #if SANITIZER_LINUX && !SANITIZER_ANDROID
+#include <stdio.h>
 #include <glob.h>
 #include <obstack.h>
 #include <mqueue.h>
